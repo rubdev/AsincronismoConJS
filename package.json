@@ -4,7 +4,8 @@
   "description": "Curso sobre asincronismo en Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node src/callback/index.js",
+    "callback:peticionGET": "node src/callback/peticionAPI.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/rubdev/AsincronismoConJS/issues"
   },
-  "homepage": "https://github.com/rubdev/AsincronismoConJS#readme"
+  "homepage": "https://github.com/rubdev/AsincronismoConJS#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
