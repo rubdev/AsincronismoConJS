@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "callback": "node src/callback/index.js",
-    "callback:peticionGET": "node src/callback/peticionAPI.js"
+    "callback:peticionGET": "node src/callback/peticionAPI.js",
+    "promise": "node src/promesas/index.js",
+    "promise:peticionGET": "node src/promesas/peticionAPI.js"
   },
   "repository": {
     "type": "git",
