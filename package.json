@@ -7,7 +7,8 @@
     "callback": "node src/callback/index.js",
     "callback:peticionGET": "node src/callback/peticionAPI.js",
     "promise": "node src/promesas/index.js",
-    "promise:peticionGET": "node src/promesas/peticionAPI.js"
+    "promise:peticionGET": "node src/promesas/peticionAPI.js",
+    "async": "node src/asyc_await/index.js"
   },
   "repository": {
     "type": "git",
